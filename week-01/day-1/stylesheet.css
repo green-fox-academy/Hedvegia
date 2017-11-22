@@ -1,0 +1,43 @@
+body {
+    background-image: url('topography.png');
+    font-family: consolas, courier;
+    margin: 0;
+}
+div {
+    padding: 0 10%;
+}
+header {
+    background: #333333;
+    background-image: url('aperture.svg');
+    height: 50px;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-position: 10%;
+}
+h2 {
+    color: #ff0099;
+}
+#wiki {
+    color: black;
+    text-align: center;
+    line-height: 2em;
+    font-size: 30px;
+}
+#center {
+    text-align: center;
+    line-height: 5em;
+}
+a {
+    color: #ff0099;
+}
+nav {
+    text-align: right;
+    padding: 1.5% 2% 1.5% 1.5%;
+}
+h1 {
+    font-family: 'Roboto Slab';
+    font-size: 40px;
+}
+h2 {
+    font-family: 'Roboto Slab';
+}
