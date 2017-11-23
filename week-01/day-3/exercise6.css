@@ -1,0 +1,23 @@
+body {
+    color: white;
+    font-size: 36px;
+    font-weight: bold;
+}
+p {
+    background: rgb(0, 240, 224);
+    border-radius: 90%;
+    width: 20px;
+    height: 20px;
+    padding: 140px;
+    padding-top: 130px;
+    padding-bottom: 150px;
+    text-align: center;
+    display: inline-block;
+    margin: 15px;
+}
+p:first-child {
+    background: rgb(207, 11, 230);
+}
+p:last-child {
+    background: rgb(247, 188, 7);
+}
