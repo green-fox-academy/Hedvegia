@@ -1,0 +1,9 @@
+h1 {
+    color: rgb(253, 164, 54);
+}
+p {
+    color: black;s
+}
+body p:nth-child(3) {
+    margin-left: 15px;
+}
