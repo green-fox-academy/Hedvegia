@@ -1,0 +1,18 @@
+h1 {
+    color: rgb(255, 86, 55);
+}
+h2 {
+    color: rgb(197, 107, 228);
+}
+ul {
+    list-style-type: square;
+}
+ul > ul {
+    list-style-type: upper-roman;
+    color: rgb(255, 19, 250);
+    text-decoration: underline;
+}
+ul ul li:nth-child(4) {
+    color: black;
+    text-decoration: underline black;
+}
