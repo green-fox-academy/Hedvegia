@@ -1,0 +1,28 @@
+body {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    margin: 0;
+}
+div:first-child {
+    background: rgb(251, 108, 103);
+    border: 12px solid rgb(15, 132, 243);
+    width: 510px;
+    height: 388px;
+    margin-bottom: 5px;
+}
+div p:first-child {
+    text-align: center;
+    padding-top: 30px;
+}
+div p:last-child {
+    text-align: center;
+    line-height: 286px;
+}
+div:last-child {
+    background: rgb(144, 233, 230);
+    border: 12px solid rgb(15, 132, 243);
+    width: 510px;
+    height: 388px;
+    margin-bottom: 5px;
+}
