@@ -1,0 +1,46 @@
+body {
+    font-size: 36px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+ul {
+    list-style-type: none;
+    border: 15px solid rgb(15, 132, 243);
+    height: 516px;
+    width: 350px;
+    padding: 0;
+    margin: 10px;
+}
+#first {
+    text-align: center;
+    line-height: 3.2em;
+    background: rgb(251, 108, 103);
+    border: 0px none black;
+    height: 129px;
+    width: 350px;
+}
+#second {
+    text-align: center;
+    line-height: 3.2em;
+    background: rgb(244, 240, 95);
+    border: 0px none black;
+    height: 129px;
+    width: 350px;
+}
+#third {
+    text-align: center;
+    line-height: 3.2em;
+    background: rgb(144, 233, 230);
+    border: 15px none black;
+    height: 129px;
+    width: 350px;
+}
+#fourth {
+    text-align: center;
+    line-height: 3.2em;
+    background: rgb(105, 144, 226);
+    border: 0px none black;
+    height: 129px;
+    width: 350px;
+}
