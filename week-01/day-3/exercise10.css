@@ -1,0 +1,32 @@
+body {
+    font-family: 'Arvo', serif;
+    margin: 0;
+    color: white;
+}
+p {
+    background-image: url('duck.png');
+}
+p:first-child {
+    border: 1px solid rgb(255, 85, 84);
+    width: 220px;
+    text-align: center;
+    background: rgb(255, 85, 84);
+    padding: 10px;
+}
+body p:nth-child(2) {
+    border: 1px solid rgb(107, 53, 111);
+    width: 220px;
+    text-align: center;
+    background: rgb(107, 53, 111);
+    padding: 10px;
+}
+p:last-child {
+    border: 1px solid rgb(128, 125, 120);
+    width: 220px;
+    text-align: center;
+    background: rgb(128, 125, 120);
+    padding: 10px;
+}
+p {
+    background-image: url('duck.png');
+}
