@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link href="exercise2.css" rel="stylesheet">
+        <Title>day4 exercise3</Title>
+        <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
+    </head>
+    <body>
+        <form>
+            <h1>Profil</h1>  
+            <p>Kapcsolat </p>
+            <p>Személyes Adatok</p>
+            <div>
+                <label>Telefonszám</label> <br>
+                <input id="tel" type="phone" placeholder="+36 -- --- ----"> <br>
+                <label>E-mail cím</label> <br>
+                <input id="email" type="email" placeholder="nev@domain.hu"> <br>
+                <label>Facebook profilod</label> <br>
+                <input id="facebook" type="url" placeholder="https://www.facebook.com/"> <br>
+                <label>Twitter profilod</label> <br>
+                <input id="twitter" type="url" placeholder="https://twitter.com"> <br>
+                <label>Milyen házban laksz</label> <br>
+                <select>
+                    <option value="" disabled selected>Válassz típust</option>
+                    <option value="home">családiház</option>
+                    <option value="home">lakás</option>
+                    <option value="home">egyéb</option>
+                </select>
+            </div>
+            <div>
+                <label>Név <span class="star">*</span></label> <br>                      
+                <input id="name" type="text" > <br>
+                <div class="birth">
+                    <label for="birthdate">Születési éved</label>
+                    <input id="birthdate" type="text" placeholder="pl 1995.">
+                </div> 
+                <div class="gender">
+                    <label>Nemed</label> <br>
+                    <input id="male" name="gender" type="radio">
+                    <label for="male">Male</label>
+                    <input id="female" name="gender" type="radio">
+                    <label for="female">Female</label>
+                </div> 
+                <label>Milyen márkákat szeretsz?</label> <br>
+                <div class="ul">
+                    <input id="brand" type="checkbox" required>
+                    <label for="brand">Adidas</label> <br>
+                    <input id="brand" type="checkbox" required>
+                    <label for="brand">Apple</label> <br>
+                    <input id="brand" type="checkbox" required> 
+                    <label for="brand">Coca-cola</label><br>
+                    <input id="brand" type="checkbox" required>
+                    <label for="brand">Mazda</label><br>
+                    <input id="brand" type="checkbox" required> 
+                    <label for="brand">Nike</label><br>
+                </div>
+                <div class="ol">
+                    <input id="brand" type="checkbox" required>
+                    <label for="brand">Opel</label><br>
+                    <input id="brand" type="checkbox" required> 
+                    <label for="brand">Ray-Ban</label><br>
+                    <input id="brand" type="checkbox" required>
+                    <label for="brand">Starbucks</label><br>
+                    <input id="brand" type="checkbox" required> 
+                    <label for="brand">Tesla</label><br>
+                    <input id="brand" type="checkbox" required> 
+                    <label for="brand">Yahoo</label><br>
+                </div>
+                <p id="morechoise">Többet is választhatsz</p>
+            </div>
+            <p>Bemutatkozás <span class="star">*</span> <br>
+                <textarea>írj magadról pár mondatot</textarea> 
+                <label for="file">CV feltöltése</label> <br>
+                <input type="file" id="file" name="file" style="display: none">
+                <input type="button" id="button" onclick="document.getElementById('file').click();" value="FÁJL KIVLASZTÁSA"/> <br>
+                <input id="felt" type="checkbox">
+                <label  for="felt">elfogadom a <a href="">felhasználási feltételeket</a></label>    
+            </p>
+        </form> 
+        <form>
+            <div>
+                <button id="color">MENTÉS</button>
+                <button>ŰRLAP TÖRLÉSE</button>
+            </div>
+        </form>   
+    </body>
+</html>
+
