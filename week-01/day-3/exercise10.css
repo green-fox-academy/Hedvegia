@@ -3,30 +3,36 @@ body {
     margin: 0;
     color: white;
 }
-p {
-    background-image: url('duck.png');
-}
 p:first-child {
     border: 1px solid rgb(255, 85, 84);
     width: 220px;
     text-align: center;
     background: rgb(255, 85, 84);
-    padding: 10px;
+    padding: 20px;
+    background-image: url('duck.png');
+    background-size: 20%;
+    background-repeat: no-repeat;
+    background-position: left;
 }
 body p:nth-child(2) {
     border: 1px solid rgb(107, 53, 111);
     width: 220px;
     text-align: center;
     background: rgb(107, 53, 111);
-    padding: 10px;
+    background-image: url('duck.png');
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center; 
+    padding: 20px;
 }
 p:last-child {
     border: 1px solid rgb(128, 125, 120);
     width: 220px;
     text-align: center;
     background: rgb(128, 125, 120);
-    padding: 10px;
-}
-p {
-    background-image: url('duck.png');
+    background-image: url('duck.png'); 
+    background-size: 30%;
+    background-repeat: no-repeat;
+    background-position: right bottom;    
+    padding: 20px;
 }
