@@ -8,10 +8,18 @@
 #
 # - Print this two dimensional list to the output
 
-listoflists = []
-for i in range(0,2):
-    sublist = []
-    for j in range(0,10)
-        sublist.append((i,j))
-    listoflists.append(sublist)
-print listoflists
+a = []
+b = []
+size = 4
+
+for i in range(size):
+   b = []
+   for j in range(size):
+       if i == j:
+           b.append('1')
+       else:
+           b.append('0')
+   a.append(b)
+
+for i in range(size):
+    print(a[i])
