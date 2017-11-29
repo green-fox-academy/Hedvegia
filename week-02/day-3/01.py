@@ -3,5 +3,5 @@
 # Expected ouput: In a galaxy far far away
 
 
-var = "In a dishwasher far far away"
+change = "In a dishwasher far far away"
 print("In a ", "galaxy ", "far far away") 
