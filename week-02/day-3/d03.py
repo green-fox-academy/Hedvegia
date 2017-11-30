@@ -19,3 +19,19 @@ def ret (accs):
         print(i['client_name'], i['balance'])
 
 ret(accounts)
+
+def transfer (): 
+	a = int(input('Form account number: ')) 
+	b = int(input('To account number: '))  
+	c = int(input('amount: '))
+	for i in accounts:
+		if a == accounts[i]['account_number']:
+			accounts[i]['account_number'] - c
+			print(accounts)
+		else:
+			print("404 - account not found")
+
+		
+transfer(accounts)
+	
+
