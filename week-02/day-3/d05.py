@@ -28,13 +28,13 @@ def header():
   print("| Ingredient         | Needs cooling | In stock |")
   print("+" + "-"*20 + "+" + "-"*15 + "+" + "-"*10 + "+")
 
-def change(i):
+def needs_cooling(i):
 	if ingredients[i]["needs_cooling"] == True:
 		return("Yes")
 	else:
 		return("No")
 
-def check(i):
+def in_stock(i):
 	if ingredients[i]["in_stock"] == 0:
 		return('-')
 	elif ingredients[i]["in_stock"] != 0:
@@ -42,9 +42,13 @@ def check(i):
 
 def table():
   for i in range(0, len(ingredients)):
-    print("| " + ingredients[i]["name"] + " "*(19-len(ingredients[i]["name"])) + "| " + change(i) + " "*(14-len(change(i))) + "| " + check(i) + " "*8 + "|")
-  print("+" + "-"*20 + "+" + "-"*15 + "+" + "-"*10 + "+")
+    print("| " + ingredients[i]["name"] + " "*(19-len(ingredients[i]["name"])) + "| " + needs_cooling(i) + " "*(14-len(needs_cooling(i))) + "| " + in_stock(i) + " "*8 + "|")
+
+
+def footer():
+	print("+" + "-"*20 + "+" + "-"*15 + "+" + "-"*10 + "+")
 
 header()
 table()
+footer()
 
