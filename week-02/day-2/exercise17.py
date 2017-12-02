@@ -4,4 +4,7 @@
 # - Swap the first and the third element of `abc`
 
 abc = ["first", "second", "third"]
-print(abc[ : :-1])
+a1 = abc[0]
+abc[0] = abc[2]
+abc[2] = a1
+print(abc)

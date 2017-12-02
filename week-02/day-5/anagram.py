@@ -1,5 +1,5 @@
-inp1 = "fhjdsalhg"
-inp2 = "fkdlsa"
+inp1 = "dog"
+inp2 = "god"
 
 s1 = sorted(inp1)
 s2 = sorted(inp2)

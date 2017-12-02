@@ -10,3 +10,12 @@ def appendA (string):
     print(ama)
 
 appendA(am)
+
+#training
+
+am = "kuty"
+
+def appendA(am):
+  return (am + "a")
+
+print(appendA(am))
