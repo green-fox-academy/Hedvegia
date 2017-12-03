@@ -27,3 +27,17 @@ elif a[0] == "*":
 elif a[0] == "/":
     print(a[1] / a[2])
 
+#training
+
+def calculator ():  
+    a = input("Type your expression: ") 
+    if a[0] == "+":
+        print(int(a[2]) + int(a[4]))
+    elif a[0] == "-":
+        print(int(a[2]) - int(a[4]))
+    elif a[0] == "*":
+        print(int(a[2]) * int(a[4]))
+    else:
+        print(int(a[2]) / int(a[4]))
+
+calculator()

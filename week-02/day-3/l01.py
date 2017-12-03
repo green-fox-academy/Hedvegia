@@ -2,5 +2,5 @@
 # Insert it into the correct position
 
 planet_list = ["Mercury", "Venus", "Earth", "Mars", "Jupiter", "Uranus", "Neptune"]
-planet_list.insert(0, 'Saturn')
+planet_list.insert(4, 'Saturn')
 print(planet_list)

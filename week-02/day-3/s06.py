@@ -11,7 +11,7 @@ hashmap = {
     49: "make you cry,",
     2: "let you down",
     12: "give you up,",
-    1: "Never gonna",
+    1: "Never gonna ",
     11: "\n",
     3: "say goodbye"
 }
