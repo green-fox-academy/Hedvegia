@@ -20,13 +20,27 @@ def ret (accs):
 
 ret(accounts)
 
-def transfer (ls):
-	a = int(input('from: '))
-   b = int(input('to: '))
-	c = int(input('amounts: '))
-	for i in range(0, len(accounts)):
-		if a == accounts[i]['account_number']:
-			accounts[i]['balance'] - c
-			print(accounts)		
 
+def transfer(ls):
+	a = int(input('From: '))
+	b = int(input('To: '))
+	c = int(input('Amounts: '))
+	error = []
+	error1 = []
+	for i in accounts:
+		if a != i['account_number']:
+			error.append(1)
+			pass
+		else:
+			for j in accounts:
+				if j['account_number'] != b:
+					error1.append(1)
+					pass
+				else:
+					i["balance"] -= c
+					j['balance'] += c
+					print(accounts)
+	if len(error) == len(accounts) or len(error1) == len(accounts):
+		print("404 - account not found")	
+		
 transfer(accounts)

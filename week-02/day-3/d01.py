@@ -29,3 +29,25 @@ def lass_than_5 (candy):
     return(ages)
 
 print(lass_than_5(students))
+
+#Practise
+
+def owned_candies(students):
+    for i in students:
+        print(i['name'], i['candies'])
+owned_candies(students)
+
+def owned_candies_sum(students):
+    summa = []
+    for i in students:
+       summa.append(i['candies'])  
+    print(sum(summa))
+owned_candies_sum(students)
+
+def ages(students):
+    a = 0
+    for i in students:
+        if i['candies'] >= 5:
+            a += i['age']
+    print(a)
+ages(students)

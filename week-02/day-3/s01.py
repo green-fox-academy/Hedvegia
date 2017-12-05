@@ -5,4 +5,3 @@
 
 original = "In a dishwasher far far away"
 change = original[ : 5] + 'galaxy' + original[15: ]
-print(changes)
