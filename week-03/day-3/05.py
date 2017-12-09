@@ -5,4 +5,4 @@ def bunnies(n):
         return 2
     else:
         return 2 + bunnies(n-1)
-print(bunnies(10))
+print(bunnies(3))
