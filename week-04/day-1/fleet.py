@@ -1,7 +1,7 @@
 from thing import Thing
 
 class Fleet(object):
-    def __init__(self):
+    def __init__(self, things):
         self.things = []
 
     def add(self, thing):
