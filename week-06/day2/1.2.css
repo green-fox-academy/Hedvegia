@@ -1,0 +1,28 @@
+body {
+    margin: 0px;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.box {
+    height: 200px;
+    min-width: 200px;
+}
+
+.green {
+    background: rgb(59, 236, 74);
+    flex-grow: 1;
+}
+
+.yellow {
+    background: yellow;
+    width: 400px;
+    flex-grow: 2;
+}
+
+.purple {
+    background: rgb(228, 104, 228);
+    flex-grow: 3;
+}
