@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    display: flex;
+    background: yellow;
+    height: 300px;
+    align-items: flex-end;
+    justify-content: flex-end; 
+    padding-left: 0px;
+}
+
+
+.item {
+    background: rgb(228, 104, 228);
+    height: 100px;
+    min-width: 100px;
+    margin-left: 10px;
+}
