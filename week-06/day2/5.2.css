@@ -1,0 +1,49 @@
+body {
+    margin: 0px;
+}
+
+.header-container {
+    display: flex;
+    background: lightblue;
+    height: 70px;
+}
+
+.main-side-container {
+    height: 500px;
+    min-width: 100px;
+    display: flex;
+}
+
+.main-content {
+    width: 50%;
+    margin: 0 10px 0 10px;
+    background: red;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.small-content {
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    background: black;
+}
+
+.side-bar {
+    width: 25%;
+}
+
+.right {
+    background: purple;
+}
+
+.left {
+    background: orange;
+}
+
+.footer {
+    display: flex;
+    background: blue;
+    height: 70px;
+}
