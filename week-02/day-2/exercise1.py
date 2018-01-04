@@ -6,3 +6,12 @@ def doubling (number):
     double = number * 2
     print(double)
 doubling(ak)
+
+#training
+
+ak = '123'
+
+def doubling(ak):
+  print(ak*2)
+  
+doubling(ak)

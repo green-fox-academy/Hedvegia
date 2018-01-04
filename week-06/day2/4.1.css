@@ -1,0 +1,43 @@
+body {
+    text-align: center;
+    margin: 10px;
+}
+
+.header-container {
+    display: flex;
+    background: purple;
+    height: 50px;
+}
+
+.box {
+    background: cyan;
+    height: 30px;
+    align-items: center;
+    margin: 10px;
+    width: 70px;
+    justify-content: flex-start;
+}
+
+.first {
+    width: 90px;
+}
+
+.third {
+    width: 70px;
+}
+
+.main-side-container {
+    height: 500px;
+    min-width: 100px;
+    display: flex;
+}
+
+.main-content {
+    flex: 2;
+    background: yellow;
+}
+
+.side-bar {
+    flex: 1;
+    background: greenyellow;
+}

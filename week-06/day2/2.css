@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+}
+
+.flex-container {
+    display: flex;
+    background: yellow;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.purple {
+    background: rgb(228, 104, 228);
+    height: 100px;
+    width: 100px;
+}

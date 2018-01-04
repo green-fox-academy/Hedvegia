@@ -8,3 +8,6 @@
 #   `"orchid", "violet", "pink", "hot pink"`
 
 a = [['lime', 'forest green', 'olive', 'pale green', 'spring green'], ['orange red', 'red', 'tomato'], ['orchid', 'violet', 'pink', 'hot pink']]
+print(a[0])
+print(a[1])
+print(a[2])

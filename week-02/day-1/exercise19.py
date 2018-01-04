@@ -10,7 +10,5 @@ elif number == 1:
     print('One')
 elif number == 2:
     print('Two')
-elif number >= 2:
+else:
     print('A lot')
-else: 
-    print('ooooh man')

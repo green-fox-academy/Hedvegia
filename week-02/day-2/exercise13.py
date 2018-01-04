@@ -23,3 +23,18 @@ for i in range(size):
 
 for i in range(size):
     print(a[i])
+
+#training
+
+a = int(input('Enter a number: '))
+
+def concate(input):
+    for i in range(a):
+        p = ""
+        for j in range(a):
+            if i == j:
+                p += "1 "             
+            else:
+                p += "0 "
+        print(p)
+(concate(a))

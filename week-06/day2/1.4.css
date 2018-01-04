@@ -1,0 +1,21 @@
+body {
+    margin: 0px;
+}
+
+.box {
+    height: 100px;
+    text-align: center;
+}
+
+.green {
+    background: rgb(59, 236, 74);
+}
+
+.yellow {
+    background: yellow;
+    height: 200px;
+}
+
+.purple {
+    background: rgb(228, 104, 228);
+}

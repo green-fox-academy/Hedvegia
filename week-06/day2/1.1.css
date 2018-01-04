@@ -1,0 +1,25 @@
+body {
+    margin: 0px;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    text-align: center;
+}
+
+.green {
+    background: rgb(59, 236, 74);
+}
+
+.yellow {
+    background: yellow;
+}
+
+.purple {
+    background: rgb(228, 104, 228);
+}

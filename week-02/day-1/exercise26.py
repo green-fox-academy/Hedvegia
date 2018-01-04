@@ -19,3 +19,20 @@ if a > b:
 
 for i in range(a, b):
     print(i)
+
+#Training
+
+def b_is_bigger (a, b):
+    for i in range(1, b-a):
+        print(a + i)
+
+def game ():
+    a = int(input("enter a number: "))
+    b = int(input("enter a second number: "))
+    if a < b:
+        b_is_bigger(a, b)
+    else:
+        print("b sholud be bigger than a!")
+        game()
+        
+game()

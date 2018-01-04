@@ -8,3 +8,19 @@ def sum (list):
     return num
 
 print(sum(4))
+
+#training
+
+def sum_new(b):
+    osszeg = 0
+    mehet = True
+    while(mehet):
+        a = int(input("Adjon meg hozzáadandó számot: "))
+        if a != b:
+          osszeg += a
+        else:
+          mehet = False
+    return osszeg
+
+inp = int(input("Adjon meg paramétert: "))
+print(sum_new(inp))
