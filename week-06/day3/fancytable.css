@@ -1,0 +1,57 @@
+body {
+    background: rgb(0, 119, 255);
+}
+
+table {
+    border-collapse: collapse;
+    width: 600px;
+}
+
+thead > tr {
+    background: rgb(19, 18, 18);
+    color: white;
+    height: 60px;
+}
+
+td {
+    padding-left: 20px;
+    font-family: brother-1816, sans-serif;
+}
+
+tbody > tr{
+    background: rgb(236, 231, 231);
+    color:  rgb(117, 110, 110);
+    height: 60px;
+}
+
+tbody > tr:nth-child(2n) {
+    background: rgb(196, 192, 192);
+}
+
+.top {
+    border-bottom: 3px solid  rgb(148, 142, 142);
+}
+
+.left {
+    border-radius: 5px 0 0 0;
+    border-right: 1px solid  rgb(148, 142, 142);
+}
+
+.right {
+    border-radius: 0 5px 0 0;
+}
+
+.left-bottom {
+    border-radius: 0 0 0 5px;
+    border: 0;
+}
+
+.right-bottom {
+    border-radius: 0 0 5px 0;
+    border: 0;
+    border-left: 1px solid  rgb(148, 142, 142);
+}
+
+tbody>tr>td {
+    border: 1px solid  rgb(148, 142, 142);
+}
