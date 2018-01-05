@@ -1,0 +1,31 @@
+body {
+    background-color: rgb(17, 15, 15);
+}
+
+.container {
+    display: flex;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+}
+
+.main {
+    background: white;
+    transform: rotate(45deg);
+}
+
+.border {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    border: 2px solid rgb(255, 136, 0);
+    color: rgb(17, 15, 15);
+    font-family: sans-serif;
+    transform: rotate(-45deg);
+}
