@@ -1,0 +1,27 @@
+body {
+    background: purple;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    height: 200px;
+    grid-gap: 10px;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.main {
+    background: greenyellow;
+}
+
+.side {
+    background: yellow;
+}
