@@ -20,11 +20,11 @@ var out2 = '';
 // if more than 20 set out2 to "More!"
 
 if (10 < b < 20) {
-    out2 + 'Sweet!'
+    var out2 = 'Sweet!'
 } else if (10 > b) {
-    out2 + 'Less!'
+    var out2 = 'Less!'
 } else {
-    out2 + 'More!'
+    var out2 = 'More!'
 }
 
 console.log(out2);
@@ -40,6 +40,13 @@ var isBonus = false;
 // and is_bonus is false decrement c by 1
 // if is_bonus is true c should remain the same
 
+if (credits > 50 && isBonus == false) {
+    var c = 1
+} else if (credits < 50 && isBonus == false) {
+    var c = 2
+} else if (isBonus == true) {
+    var c = true
+}
 
 console.log(c);
 
@@ -56,5 +63,12 @@ var out3 = '';
 // set out3 to "Time out"
 // otherwise set out3 to "Run Forest Run!"
 
+if (d % 4 == 0 && time <= 200) {
+    var out3 = "check"
+} else if (time > 200) {
+    var out3 = "Time out" 
+} else {
+    var out3 = "Run Forest Run!"
+}
 
 console.log(out3);
