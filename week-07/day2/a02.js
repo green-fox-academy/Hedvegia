@@ -7,8 +7,7 @@ var boys = ["Joe","Fred","Béla","Todd","Neef","Jeff"];
 var order = [];
 
 for (var i=0; i <= girls.length; i++) {
-    order.push(girls[i]);
-    order.push(boys[i]);
+    order.push(girls[i], boys[i]);
 }
 
 if (boys.length > girls.length) {

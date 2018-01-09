@@ -1,0 +1,34 @@
+'use strict';
+
+var students = [
+        {'name': 'Rezso', 'age': 9.5, 'candies': 2},
+        {'name': 'Gerzson', 'age': 10, 'candies': 1},
+        {'name': 'Aurel', 'age': 7, 'candies': 3},
+        {'name': 'Zsombor', 'age': 12, 'candies': 5}
+]
+
+// create a function that takes a list of students and logs:
+// - Who has got more candies than 4 candies
+
+// create a function that takes a list of students and logs: 
+//  - how many candies they have on average
+
+function moreThanFour(list) {
+    list.forEach(function(item) {
+        if (item.candies > 4) {
+            console.log(item.name);
+        }
+    });
+}
+
+moreThanFour(students);
+
+function candiesAverage(list) {
+    var out = 0
+    list.forEach(function(item){
+        out += item.candies
+    });
+    console.log(out / students.length);
+}
+
+candiesAverage(students);
