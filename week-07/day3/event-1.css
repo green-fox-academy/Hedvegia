@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    background: black;
+}
+div {
+    height: 100vh;
+}
+.party {
+    background: url(https://media.giphy.com/media/4c4jQPdVv381G/giphy.gif);
+}
+.button {
+    margin-top: 150px;
+    margin-left: 600px;
+    height: 100px;
+    width: 200px;
+    border: 4px solid white;
+    background: rgba(0, 0, 0, 0);
+    font-family: ;
+    color: white;
+    font-size: 15px;
+    position: absolute;
+}
+
+.button:hover {
+    background: rgb(247, 171, 136);
+    border: 4px solid white;
+}
+
+
+

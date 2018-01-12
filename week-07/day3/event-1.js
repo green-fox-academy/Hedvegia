@@ -1,12 +1,25 @@
 'use strict';
 
-var button = document.querySelector('button');
-var div = document.querySelector('div');
-var background = document.createElement('div');
-div.appendChild(background);
+let button = document.querySelector('button');
+let divElement = document.querySelector('div');
+let background = document.createElement('div');
+divElement.appendChild(background);
 
 function turnOnTheParty(){
     background.classList.toggle('party');
 }
 
 button.addEventListener('click', turnOnTheParty);
+
+
+
+
+
+
+
+
+
+
+
+
+
