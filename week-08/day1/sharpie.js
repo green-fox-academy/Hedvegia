@@ -10,9 +10,9 @@
 //  Make sure your loop works with any inkAmount, so your code figures out when it's out of ink.
 
 class Sharpie{
-    constructor(type, color, width) {
+    constructor(color, width) {
         this.color = color;
-        this.width = 0,
+        this.width = width;
         this.inkAmount = 100;
     }
     use () {
@@ -21,7 +21,7 @@ class Sharpie{
     }
 }
 
-let sharpie = new Sharpie('sharpie', 'blue', 10);
+let sharpie = new Sharpie('blue', 10);
 
 while (sharpie.inkAmount != 0) {
     sharpie.use();
