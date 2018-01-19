@@ -7,9 +7,9 @@ xmlHttp.send(null);
 xmlHttp.onload = function() {
     let response = JSON.parse(xmlHttp.responseText);
     console.log(response);
+
     let ul = document.getElementsByTagName('ul')[0];
     
-
     for (let i = 0; i < response.data.length; i++) {
         let image = document.createElement('img');
         image.setAttribute('src', response.data[i].images.fixed_width_still.url);
