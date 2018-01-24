@@ -1,11 +1,13 @@
 'use strict';
 
-let Summa = {
-    sum: function(a, b, c, d, e, f, g) {
-        return a+b+c+d+e+f+g
+let Sum = {
+    sum: function(list) {
+        let sumOfNumbers = 0
+        list.forEach(item => sumOfNumbers += item)
+        return sumOfNumbers
     }
 }
 
-console.log(Summa.sum(1, 2, 3, 4, 5, 6, 7));
+console.log(Sum.sum([1, 2, 3, 4, 5, 6, 7]));
 
-module.exports = Summa.sum;
+module.exports = Sum.sum;
