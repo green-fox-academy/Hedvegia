@@ -7,7 +7,9 @@
 let createDictionary = function(string) {
     let dictionary = {};
     let inputWord = string.split('');
-    console.log(inputWord);
+    inputWord.map(function(item){
+        
+    });
 }
 
 createDictionary('string');
