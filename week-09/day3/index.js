@@ -25,7 +25,7 @@ app.get('/doubling', function(req, res){
     res.json(body);  //this will be the send
 });
 
-app.get('/greeter/:name/:title', function(req, res){
+app.get('/greeter', function(req, res){
     let body;
     if (req.query.name === undefined) {
         body = {
@@ -43,4 +43,22 @@ app.get('/greeter/:name/:title', function(req, res){
     res.json(body);  //this will be the send
 });
 
-app.listen(8030);
+app.get('/append', function(req, res){
+    let body;
+    if (req.query.name === undefined) {
+        body = {
+            "error": 'Please provide a name!'
+        }   
+    } else if (req.query.title === undefined) {
+        body = {
+            "error": 'Please provide a title!'
+        }   
+    } else {
+        body = {
+            "welcome_message": "Oh, hi there " + req.query.name + " my dear " + req.query.title + " !"
+        }
+    }
+    res.json(body);  //this will be the send
+});
+
+app.listen(8001);
