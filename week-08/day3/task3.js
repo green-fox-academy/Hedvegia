@@ -10,6 +10,7 @@ function getPosition() {
   let inputs = inputCity[0] + '+' + inputCity[1];
   console.log(inputCity[0]);
   console.log(inputCity[1]);
+  console.log(inputs);
   
   let httpRequest = new XMLHttpRequest();
 
@@ -18,7 +19,7 @@ function getPosition() {
   httpRequest.setRequestHeader('Accept', 'application/json');
   httpRequest.send();
   httpRequest.onreadystatechange = console.log;
-  
+
   httpRequest.onload = function() {
 
     if (httpRequest.status >= 200 && httpRequest.status < 400){
@@ -26,8 +27,8 @@ function getPosition() {
       let text = JSON.parse(httpRequest.responseText);
       console.log(text);
 
-      let dataResults = data.Results[0];
-      console.log(dataResults[0]);
+      let dataResults = text.Results;
+      console.log(dataResults);
 
       let latitude = dataResults.lat;
       let longitude = dataResults.lon;
@@ -38,7 +39,7 @@ function getPosition() {
 
       positionNumbers.innerText = 'Latitude:' + latitude + ', Longitude:' + longitude;
 
-      let googleMapLink = 'https://www.google.com/maps/embed/v1/place?key=AIzaSyAcCN0jWGgLTS_Uru8xDLaZ-GxisowNuIQ&q=' + input;
+      let googleMapLink = 'https://www.google.com/maps/embed/v1/place?key=AIzaSyAcCN0jWGgLTS_Uru8xDLaZ-GxisowNuIQ&q=' + inputs;
       
       googleMap.setAttribute('src', googleMapLink);
     } else {
