@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen" href="musicPlayer.css">
+</head>
+<body>
+    <div class='container'>
+        <div class='left'>
+            <img class='logo pic' src='files/foxplayer.png'>
+        </div>
+        <div class='current'>
+            <audio src='files/Never_Give_Up.mp3'></audio>
+        </div>
+        <div class='box'>
+            <img class='star' src='files/star.svg'>
+            <img class='favourite' src='files/x.png'>
+        </div>
+        <div class='playlist'>
+            <p>Playlist</p>
+            <p>All</p>
+            <p>Favourite</p>
+        </div>
+        <div class='musics'>
+            <p>track1</p>   
+            <p>track2</p>
+        </div>
+        <div class='time'>
+            <p>5:11</p>
+            <p>2:23</p>
+        </div>
+        <div class='navigation'>
+            <img class='left-arrow' src='files/left.svg'>
+            <img class='play-stop' src='files/stop.svg'>
+            <img class='right-arrow' src='files/letöltés.svg'>
+        </div>
+        <div class='music-range'>
+            <input class='range' type='range'>
+            <img class='shuffle' src='files/shuffle.svg'>
+        </div>
+        <div class='volume'>
+            <img class='volume-icon' src='files/volume.svg'>
+            <input class='volume-range' type='range'>
+        </div>
+    </div>
+    <script src='musicPlayerFrontend.js'></script>
+    <script src='musicPlayerBackend.js'></script>
+</body>
+</html>
