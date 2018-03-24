@@ -25,5 +25,3 @@ try {
 let printStr = function(str) {
   console.log(str);
 }
-
-addString(1234, 56789);
