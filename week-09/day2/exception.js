@@ -4,26 +4,26 @@
 // arguments, throw the right error and write it to the console.
 // It should add the strings too if the arguments are appropriate.
 
-let  addString = function(str1, str2, printStr){
-    if (typeof str1 !== 'string') {
-        throw new Error('"str1" is not a string');
-    } else if (typeof str2 !== 'strin') {
-        throw new Error('"str2" is not a string');
-    }
+let  addString = function(str1, str2){
+  if (typeof str1 !== 'string') {
+    throw new Error(`${str1} is not a string`);
+  } else if (typeof str2 !== 'strin') {
+    throw new Error(`${str2} is not a string`);
+  }
 
-    let newStr = str1 + str2;
-    printStr(newStr);
+  let newStr = str1 + str2;
+  printStr(newStr);
 }
 
 try {
-	addString('string', 'string');
+  addString('string', 'string');
 } catch (err) {
-	console.log('catching error:');
-	console.log(err.message);
+  console.log('catching error:');
+  console.log(err.message);
 }
 
 let printStr = function(str) {
-    console.log(str);
+  console.log(str);
 }
 
-addString(1234, 56789, 'printStr');
+addString(1234, 56789);
